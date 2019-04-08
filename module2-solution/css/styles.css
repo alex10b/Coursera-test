@@ -1,0 +1,163 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+section{
+	background-color: gray;
+	border: black solid 2px;
+}
+h1{
+	text-align: center;
+	font-size: 200%
+}
+
+.row {
+  width: 100%;
+}
+/********** DESKTOP VIEW **********/
+@media (min-width: 992px){
+*{
+	font-family: Helvetica;
+}
+p{
+	font-size: 125%;
+	text-align: left;
+	padding: 10px;
+
+}
+section{
+ 	margin-left: 15px;
+ 	width:30%;
+ }
+#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+.col-leg-3{
+	float: left;
+    border: 2px solid black;
+  }
+	.col-lg-3{
+		width: 33.3%;
+	}
+	#t1{
+	background-color: orange;
+	width: 40%;
+	left: 60%;
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+ section{
+ 	margin-left: 15px;
+ }
+}
+/********** TABLET VIEW **********/
+@media (min-width: 768px) and (max-width: 991px){
+*{
+	font-family: Helvetica;
+}
+
+p{
+	padding: 10px;
+}
+.col-md-6{
+	float: left;
+    border: 2px solid black;
+  }
+	.col-md-6{
+		width: 48%;
+	}
+	.t10{
+		width: 98%;
+	}
+
+	#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+#t1{
+	background-color: orange;
+
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+section{
+	margin-bottom: 15px;
+	margin-left:2%;
+}
+
+ }
+ /********** MOBILE VIEW **********/
+@media (max-width: 768px){
+*{
+	font-family: Helvetica;
+}
+
+p{
+	padding: 10px;
+}
+.col-sm-12{
+	float: left;
+    border: 2px solid black;
+  }
+
+	.col-sm-12{
+		width: 98%;
+	}
+	#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+#t1{
+	background-color: orange;
+
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+section{
+	margin-bottom: 15px;
+}
+
+ }
