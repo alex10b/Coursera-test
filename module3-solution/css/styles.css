@@ -1,0 +1,228 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+h2{
+	margin-bottom:0;
+}
+p {
+
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+section{
+	background-color: gray;
+	border: black solid 2px;
+}
+#title{
+ position: absolute;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+/********** DESKTOP VIEW **********/
+@media (min-width: 1200px) {
+ {
+	font-family: Helvetica;
+}
+p{
+	font-size: 125%;
+	text-align: left;
+	padding: 10px;
+   
+}
+#s1,#s2,#s3{
+	margin-top: 2em;
+	margin-left: 6%;
+}
+section{
+ 	margin-left: 15px;
+ 	width:30%;
+ }
+#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+	#t1{
+	background-color: orange;
+	width: 40%;
+	left: 60%;
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+ section{
+ 	margin-left: 15px;
+ } 
+ 	div h1{
+  margin: 0;
+  position: relative;
+  bottom: 55%;
+  color:white;
+  font-size: 220%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+*{
+	font-family: Helvetica;
+}
+p{
+	font-size: 125%;
+	text-align: left;
+	padding: 10px;
+   
+}
+#s1,#s2,#s3{
+	margin-top: 2em;
+	margin-left: 6%;
+}
+section{
+ 	margin-left: 15px;
+ 	width:30%;
+ }
+#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+	#t1{
+	background-color: orange;
+	width: 40%;
+	left: 60%;
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+ section{
+ 	margin-left: 15px;
+ }
+ 	div h1{
+  margin: 0;
+  position: relative;
+  bottom: 55%;
+  color:white;
+  font-size: 200%;
+}
+}
+/********** TABLET VIEW **********/
+@media (min-width: 768px) and (max-width: 991px) {
+*{
+	font-family: Helvetica;
+}
+
+p{
+	padding: 10px;
+}
+	.t10{
+		width: 98%;
+	}
+
+	#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 35%;
+	font-size: 150%;
+	
+}
+#t1{
+	background-color: orange;
+
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+section{
+	margin-bottom: 15px;
+	margin-left:2%;
+}
+ 
+#s1,#s2,#s3{
+	margin-top: 2em;
+	margin-left: 5%;
+}
+div h1{
+  margin: 0;
+  position: relative;
+  
+  color:white;
+  font-size: 170%;
+}
+ }
+ /********** MOBILE VIEW **********/
+@media (max-width: 767px){
+	div h1{
+  margin: 0;
+  position: relative;
+  bottom: 55%;
+  color:white;
+  font-size: 120%;
+}
+*{
+	font-family: Helvetica;
+}
+
+p{
+	padding: 10px;
+}
+
+	#t1,#t2,#t3{
+border-color: black;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	left: 70%;
+	width: 30%;
+	font-size: 150%;
+	
+}
+#t1{
+	background-color: orange;
+
+ }
+ #t2{
+	background-color: salmon;
+ }
+ #t3{
+	background-color: steelblue;
+ }
+section{
+	margin-bottom: 15px;
+}
+
+#s1,#s2,#s3{
+	margin-top: 2em;
+}
+
+ }
