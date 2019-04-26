@@ -1,0 +1,56 @@
+
+#logo-img {
+  background: url('../images/insta.png') no-repeat;
+  width: 150px;
+  height: 104px;
+  margin: 5px 10px 5px -100px;
+
+}
+#header-nav {
+	margin: 0;
+	background-color: #9AD9EA;
+}
+body{
+	
+}
+#nav-list {
+  margin-top: -7%;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  margin-right: 15px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1{
+color: black;
+}
+
+#jumboo{
+	width: 100%;
+	margin-left: 0px;
+}
+
+.jumbotron{
+	margin-left: 0px;
+}
+.container > .jumbotron {
+background-color: ;
+margin-top: 0px;
+}
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: black;
+  border-top: 0;
+  color:  white;
+}
