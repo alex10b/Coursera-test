@@ -5,6 +5,9 @@
   height: 104px;
   margin-left:  -70%;
 }
+header{
+  margin-bottom: 5%;
+}
 #header-nav {
 	margin: 0;
 	background-color: #9AD9EA;
@@ -14,9 +17,8 @@
 nav .container{
  height: 10px;
 }
-h2{
-  position: absolute;
-  top: 10%;
+#main-content{
+  
 }
 body{
 	
@@ -42,6 +44,9 @@ body{
 color: black;
 margin-left:  -70%;
 }
+h2{
+  text-align:  center;
+}
 
 #jumboo{
 	width: 99vw;
@@ -58,7 +63,7 @@ margin-left:  -70%;
 	margin-left: 0px;
 }
 .container > .jumbotron {
-background-color: white;
+background-color:white;
 margin-top: 0px;
 }
 
@@ -69,6 +74,11 @@ margin-top: 0px;
   background-color: black;
   border-top: 0;
   color:  white;
+}
+.titulo{
+   color: black;
+   font-weight: bolder;
+   font-size: 150%;
 }
 @media (max-width: 768px){
 .navbar-brand h1{
