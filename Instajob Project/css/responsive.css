@@ -1,7 +1,8 @@
+
+@media screen and (max-width: 750px){
 body{
  background: white;
 }
-@media screen and (max-width: 750px){
 	.pricing-table{
 		width: 72%;
 		margin-bottom: 20px;
@@ -17,6 +18,9 @@ body{
 }
 
 @media screen and (max-width: 500px){
+body{
+    background: white;
+}
 	.pricing-table{
 		width: 90%;
 	}
