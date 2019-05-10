@@ -1,0 +1,20 @@
+@media screen and (max-width: 750px){
+	.pricing-table{
+		width: 72%;
+		margin-bottom: 20px;
+	}
+
+	.pricing-wrap{
+		justify-content: center;
+	}
+
+	.pricing-table:hover{
+		transform: scale(1.0) ;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.pricing-table{
+		width: 90%;
+	}
+}
