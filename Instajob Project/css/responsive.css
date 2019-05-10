@@ -1,3 +1,6 @@
+body{
+ background: #778899;
+}
 @media screen and (max-width: 750px){
 	.pricing-table{
 		width: 72%;
