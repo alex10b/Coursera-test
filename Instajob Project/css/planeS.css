@@ -154,15 +154,19 @@ ul{
 
 .pricing-table-list li:nth-child(2n){
 	background: #fff;
-}
 
+}
+.pricing-table-list li{
+	margin-left: -11%;
+	width: 111%;
+}
 .pricing-table-button{
 	display: block;
 	width: 100%;
 	padding: 20px 0;
 	background: #0C1F28;
 	color: #fff;
-	margin-top: 23px;
+	margin-top: 28px;
 }
 
 .pricing-table-button.estandar{
