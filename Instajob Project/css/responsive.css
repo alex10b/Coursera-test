@@ -1,12 +1,12 @@
 @media screen and (min-width: 751px){
 		.pricing-table-list li{
-	margin-left: -11%;
+	margin-left: -12%;
 	width: 111%;
 }
 }
 @media screen and (max-width: 750px){
 	.pricing-table-list li{
-	margin-left: -11%;
+	margin-left: -12%;
 	width: 111%;
 }
 body{
@@ -28,7 +28,7 @@ body{
 
 @media screen and (max-width: 500px){
 	.pricing-table-list li{
-	margin-left: -11%;
+	margin-left: -12%;
 	width: 111%;
 }
 body{
