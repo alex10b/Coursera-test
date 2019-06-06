@@ -1,0 +1,13 @@
+#header-nav {
+    margin: 0;
+    background-color: #9AD9EA;
+    position: absolute;
+    height: 50%;
+}
+.navbar-brand h1 {
+    position: relative;
+    color: black;
+    margin-left: -70%;
+    font-size: 161%;
+    bottom: 33px;
+   }
