@@ -36,7 +36,7 @@
     
      <ul>
        <li ng-repeat="p in it.value">
-	{{p.quantity}} of {{p.name}}(s) 
+	Buy {{p.quantity}} of {{p.name}}(s) 
 	<button class="btn btn-default" ng-click="it.add($index); it.move($index)"><span class="glyphicon glyphicon-ok"  ></span> Bought</button></li>
      </ul>
      <div class="emptyMessage" ng-show="it.message()">Everything is bought!</div>
@@ -47,7 +47,7 @@
      <h2>Already Bought:</h2>
      <ul>
        <li ng-repeat="item in bought.items">
-       {{item.quantity}} of {{item.name}}(s)
+       Bought {{item.quantity}} of {{item.name}}(s)
        </li>
      </ul>
      <div class="emptyMessage" ng-show="bought.message();">Nothing bought yet.</div>
